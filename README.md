@@ -1,6 +1,10 @@
 # Çok Tokenli Stalk Botu
 
-Altyapı tamamen bana ait değildir. Ben yalnızca bazı eklemeler yaptım. Orijinal altyapı [acarfx](https://github.com/acarfx)'e aittir. [Asıl altyapı](https://github.com/acarfx/sorgucu-orhan) tek tokenli ve selfbot olarak kullanılıyor ancak bu altyapıda minimum 2 token gerekiyor ve tokenlerden biri bot olmak zorunda.
+Altyapı tamamen bana ait değildir. Ben yalnızca bazı eklemeler yaptım. Orijinal altyapı [acarfx](https://github.com/acarfx)'e aittir. [Asıl altyapı](https://github.com/acarfx/sorgucu-orhan) tek tokenli ve selfbot olarak kullanılıyor ancak bu altyapıda minimum 2 token gerekiyor ve tokenlerden biri bot olmak zorunda. 
+
+## Dikkat!
+
+Selfbot olarak kullandığınız hesaplar devre dışı bırakılabilir. Lütfen kullanırken dikkat edin. Ve hesaplarınızın devre dışı bırakılmasından ben sorumlu değilim.
 
 ## Kurulum
 Modülleri kurmak için:
