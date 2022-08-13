@@ -7,7 +7,7 @@ Modülleri kurmak için:
 ```cmd
 npm install
 ```
-Ayarlar için Settings/_system.json dosyasının içerisinde bulunan alanları doldurun
+Ayarlar için Settings/_system.js dosyasının içerisinde bulunan alanları doldurun
 ```js
 const mainOptions = {
     status: "invisible", //Botların Durumu
