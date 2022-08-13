@@ -22,27 +22,31 @@ module.exports = {
             let run = istemci.commands.get(command) || istemci.aliases.get(command);
             if(run.permissions && run.permissions.length) {
                 if(run.permissions.includes("OWNER")) {
-                    if(!client.owners.includes(message.author.id)) {return; message.reply({content: `Yeterli yetkiye sahip değilsiniz.`})
-                    .then((msg) => {
-                        setTimeout(() => {
-                            msg.delete().catch(err => {})
-                        }, 7500);
-                    })}
+                    if(!client.owners.includes(message.author.id)) {
+                        return message.reply({content: `Yeterli yetkiye sahip değilsiniz.`})
+                        .then((msg) => {
+                            setTimeout(() => {
+                                msg.delete().catch(err => {})
+                            }, 7500);
+                        })
+                    }
                 } else {
                     if(message.guild && !client.owners.includes(message.author.id) && !run.permissions.some(x => uye.roles.cache.has(x)) && !uye.permissions.has('ADMINISTRATOR')) {
-                        return; message.reply({content: `Bu komutu kullanabilmek için ${run.permissions.map(x => message.guild.roles.cache.get(x)).join(', ')} rollerine sahip olmalısın.`})
+                        return message.reply({content: `Bu komutu kullanabilmek için ${run.permissions.map(x => message.guild.roles.cache.get(x)).join(', ')} rollerine sahip olmalısın.`})
                         .then((msg) => { 
                             setTimeout(() => {
                                 msg.delete().catch(err => {})
                             }, 7500);
                         });
                     }
-                    if(!message.guild) {return; message.reply({content: `Bu komutu kullanabilmek için sunucuda bulunmalısın.`})
-                    .then((msg) => {
-                        setTimeout(() => {
-                            msg.delete().catch(err => {})
-                        }, 7500);
-                    })};
+                    if(!message.guild) {
+                        return message.reply({content: `Bu komutu kullanabilmek için sunucuda bulunmalısın.`})
+                        .then((msg) => {
+                            setTimeout(() => {
+                                msg.delete().catch(err => {})
+                            }, 7500);
+                        })
+                    };
                 }
             }
       
