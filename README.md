@@ -51,7 +51,6 @@ pm2 start ecosystem.config.js
 ```
 Komutlarını kullanabilirsiniz
 ## Örnekler
-![image]()
-![image]()
+![image](https://user-images.githubusercontent.com/64871040/184498002-4f190859-21e6-411e-b107-9ef413bc2232.png)
 ## Lisans
 [MIT](https://choosealicense.com/licenses/mit/)
