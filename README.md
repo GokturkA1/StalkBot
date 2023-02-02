@@ -4,7 +4,7 @@ Altyapı tamamen bana ait değildir. Ben yalnızca bazı eklemeler yaptım. Orij
 
 ## Dikkat!
 
-Selfbot olarak kullandığınız hesaplar devre dışı bırakılabilir. Lütfen bunun deneysel amaçlı bir proje olduğunu unutmayın. 
+Selfbot olarak kullandığınız hesaplar devre dışı bırakılabilir. Lütfen bunun deneysel bir proje olduğunu unutmayın. 
 Hesaplarınızın devre dışı bırakılmasından ben sorumlu değilim.
 
 ## Kurulum
